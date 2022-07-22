@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=DM+Sans:wght@400;700&family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .content{
   display: flex;
   justify-content: center;
@@ -9,6 +15,46 @@
 
 .card{
   background: #fff;
-  box-shadow: 0px 2px 18px rgba(40, 39, 51, 0.411);
   border-radius: 10px;
+  box-shadow: 0px 2px 18px rgba(40, 39, 51, 0.411);
+  width: 350px;
+}
+
+.mediaCard{
+  background: url("https://www.themoviedb.org/t/p/w780/iuFbU5jiNh8DAxLBGifZCvv3KmB.jpg") center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.title{
+  color: #000000;
+  margin: 0px 0px 10px 0px;
+}
+
+.secondText{
+  color: #828fa1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topCard{
+  padding: 20px;
+}
+
+.bottomCard {
+  padding: 20px;
+}
+
+.bottomText{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.actions{
+  background: none;
+  border: none;
+  color: purple;
+  cursor: pointer;
+  padding: 0px;
+  
 }
