@@ -14,10 +14,13 @@ body{
 }
 
 .card{
+  position: relative;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 18px rgba(40, 39, 51, 0.411);
   width: 350px;
+
+  animation: animate 0.7s alternate infinite;
 }
 
 .mediaCard{
@@ -57,4 +60,13 @@ body{
   cursor: pointer;
   padding: 0px;
   
+}
+
+@keyframes animate{
+  from{
+    bottom: 0px;
+  }
+  to{
+    bottom:15px;
+  }
 }
