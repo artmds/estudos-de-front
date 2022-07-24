@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=DM+Sans:wght@400;700&family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+hr{
+  margin: 20px 0;
+}
+
+
+.main{
+  border: 1px solid rgb(170, 170, 170);
+  border-radius:10px;
+  padding: 20px;
+  max-width: 450px;
+  min-height: 300px;
+}
+
+.main > h1{
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+  text-align: center;
+}
+
+.main > h1 > span{
+  color: rgb(75, 90, 221);
+}
+
+.pokemon-logo, #imgPokemon{
+  text-align: center;
+}
+
+
+.pokemon-logo img{
+  width: 80%;
+  margin: 0 0 20px 0;
+}
+
+.poke-form{
+  padding: 5px 0;
+}
+
+.poke-form > label{
+  font-weight: bold;
+  color: #1B356E;
+}
+
+.poke-form input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 5px 0;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.poke-form input[type=submit]{
+  color: white;
+  font-weight: bold;
+  background-color: #3a548b;
+  cursor: pointer;
+}
+
+#imgPokemon img{
+  width: 90px;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 50%;
+  margin: 20px;
+  /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); sombra carai kk */ 
+}
+
+#content{
+  font-family: 'Noto Sans';
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  background: rgb(255, 217, 0);
+  border: 1px solid rgb(202, 157, 9);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #1B356E;
+}
