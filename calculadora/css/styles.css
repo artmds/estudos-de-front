@@ -15,7 +15,7 @@
 
 .calculadora{
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.556) 0%, rgba(0,212,255,0) 90%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
