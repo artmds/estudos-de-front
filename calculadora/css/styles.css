@@ -5,7 +5,7 @@
 }
 
 .fundo{
-  background: linear-gradient(45deg, black, crimson);
+  background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100vw;
   height: 100vh;
   color: #fff;
@@ -15,8 +15,7 @@
 
 .calculadora{
   position: absolute;
-  background-color: rgba(0, 0, 0, 80%);
-
+  background-color: rgba(255, 255, 255, 0.5);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
