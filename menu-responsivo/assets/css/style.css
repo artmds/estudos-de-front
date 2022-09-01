@@ -51,7 +51,7 @@ header{
   border: none;
   background-color: #0187a7;
   padding: 10px 15px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .login-button button a{
@@ -68,6 +68,7 @@ header{
 .mobile-menu{
   display: none ;
 }
+
 
 @media screen and (max-width: 730px){
   .nav-bar{
@@ -102,6 +103,11 @@ header{
   .mobile-menu .nav-item{
     display: block;
     padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button{
+    display: block;
+    padding: 2rem 4rem;
   }
 
   .mobile-menu .login-button button{
